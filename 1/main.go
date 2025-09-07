@@ -34,9 +34,6 @@ func main(){
 	} else {
 		fmt.Println("Мастер на выходном", "dva")
 	}
-	fmt.Println("\nПеребор элементов map:")
-	for key, value := range masters {
-		fmt.Printf("Мастер: %s, Значение: %d\n", key, value)
-	}
+	
 	wg.Wait()
 }
